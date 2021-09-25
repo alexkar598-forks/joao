@@ -444,7 +444,7 @@ ACCESS_END:
 			}
 				
 		}
-		return 0; // Safe because it is impossible for the first token of a valid João program to be a CommaToken
+		return 0; // Safe because it is impossible for the first token of a valid JoÄƒo program to be a CommaToken
 	}
 
 	//Here-there-update;

@@ -700,7 +700,7 @@ public:
 		fist.open(filename, static_cast<std::ios_base::openmode>(static_cast<int>(drapes))); //VS2019 doesn't make me do this static-casting nonsense but g++ does. :weary:
 	}
 
-	//Reads in an ifstream line-by-line as an ASCII text file which is supposed to contain João code.
+	//Reads in an ifstream line-by-line as an ASCII text file which is supposed to contain JoÄƒo code.
 	void scan(std::ifstream&);
 
 	//These functions mostly exist to get convenient access to sub-Scanners invoked by the 'include' keyword and its functionality

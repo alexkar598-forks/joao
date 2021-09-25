@@ -187,7 +187,7 @@ void Parser::generate_object_tree(std::vector<ClassDefinition*>& cdefs)
 
 	}
 
-	ObjectTree joao; //Wow, it's the real João Gaming!
+	ObjectTree joao; //Wow, it's the real JoÄƒo Gaming!
 	for (auto it = list_of_types.begin(); it != list_of_types.end(); ++it)
 	{
 		joao.append(it->second);
@@ -697,7 +697,7 @@ std::vector<Expression*> Parser::readBlock(BlockType bt, int here, int there) //
 
 				where = static_cast<int>(semicolon + 1);
 				semicolon = find_first_semicolon(where, yonder-1);
-				ASTNode* cond = readExp(where, static_cast<int>(semicolon)); // Assignments do not evaluate to anything in João so putting one in a conditional is silly
+				ASTNode* cond = readExp(where, static_cast<int>(semicolon)); // Assignments do not evaluate to anything in JoÄƒo so putting one in a conditional is silly
 				where = static_cast<int>(semicolon + 1);
 				ASTNode* inc;
 				if (find_aOp(where, yonder-1))
